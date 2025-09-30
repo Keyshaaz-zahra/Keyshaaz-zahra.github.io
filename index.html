@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batik - Indonesian Nusantara</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CACA | XI-RPL 2</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>
+                Indonesian
+                <span>Batik Nusantara</span>
+            </h1>
+            <p>Infinite Batik Styles, Timeless Elegance</p>
+            <a href="#collection" class="cta-button">Explore Collection</a>
+        </div>
+    </section>
+
+    <section id="collection">
+        <h2 class="section-title">Our Collection</h2>
+        <div class="gallery">
+            <div class="card" onclick="openModal(
+                'Batik Parang',
+                'Yogyakarta', 
+                'Menampilkan keindahan garis-garis diagonal yang tegas dan berulang menyerupai ombak laut atau bilah parang yang tak pernah berhenti. Motifnya sederhana namun penuh wibawa, dengan kesan anggun khas batik keraton. Menyimpan makna semangat perjuangan tanpa henti, kesinambungan hidup, serta tekad pantang menyerah menghadapi tantangan.', 
+                'img/batik parang.jpeg'
+                )">
+                <div class="card-image">
+                    <img src="img/cacw parang.png" alt="Batik Parang">
+                </div>
+                <div class="card-content">
+                    <h3>Parang</h3>
+                    <p>Gelombang abadi penuh keteguhan</p>
+                    <span class="tag">Yogyakarta</span>
+                </div>
+            </div>
+
+
+            <div class="card" onclick="openModal(
+                'Batik Mega Mendung',
+                'Cirebon', 
+                'Menciptakan ketenangan dengan corak awan bergelombang yang berlapis-lapis, berwarna biru, merah, hingga abu-abu, memberi kesan teduh dan menenangkan. Motifnya yang menyerupai awan melambangkan keluasan dan kelembutan hati mempunyai Makna kesabaran, keteduhan jiwa, serta kemampuan meredam amarah layaknya awan yang menaungi bumi.',
+                'img/mega mendung.jpeg'
+                )">
+                <div class="card-image">
+                    <img src="img/caca mega mendung.png" alt="Batik Mega Mendung">
+                </div>
+                <div class="card-content">
+                    <h3>Mega Mendung</h3>
+                    <p>Awan teduh dengan harmoni gradasi</p>
+                    <span class="tag">Cirebon</span>
+                </div>
+            </div>
+
+            <div class="card" onclick="openModal(
+                'Batik Kawung', 
+                'Solo', 
+                'Memancarkan keindahan lewat pola geometris berbentuk lingkaran yang teratur menyerupai buah kawung (aren). Kesederhanaan motifnya justru memberikan pesona elegan yang abadi mengandung makna kesucian, keseimbangan, serta pengendalian diri, mencerminkan kehidupan yang harmonis dan penuh kesadaran.', 
+                'img/kawung.jpeg'
+                )">
+                <div class="card-image">
+                    <img src="img/caca kawung.png" alt="Batik Kawung">
+                </div>
+                <div class="card-content">
+                    <h3>Kawung</h3>
+                    <p>Lingkaran kuno geometris penuh kesempurnaan</p>
+                    <span class="tag">Solo</span>
+                </div>
+            </div>
+
+            <div class="card" onclick="openModal(
+                'Batik Pekalongan', 
+                'Pekalongan', 
+                'Dikenal indah dengan warna-warna cerah dan berani serta motif yang kaya akan flora, fauna, dan sentuhan budaya asing. Keindahan motifnya memberikan nuansa ceria dan dinamis sesuai dengan kehidupan masyarakat pesisir yang terbuka Menyimpan arti kreativitas, keluwesan, dan semangat beradaptasi terhadap perubahan zaman.', 
+                'img/pekalongan.png'
+                )">
+                <div class="card-image">
+                    <img src="img/caca pekalongan.png" alt="Batik Pekalongan">
+                </div>
+                <div class="card-content">
+                    <h3>Pekalongan</h3>
+                    <p>Keanggunan pesisir dengan warna cerah nan hidup</p>
+                    <span class="tag">Pekalongan</span>
+                </div>
+            </div>
+
+            <div class="card" onclick="openModal(
+                'Batik Sidomukti', 
+                'Surakarta', 
+                'Menghadirkan keanggunan dengan pola yang rapi, penuh simbol, dan warna dasar cokelat atau hitam yang berkesan agung. Motifnya sering digunakan dalam upacara adat atau pernikahan, melambangkan doa dan harapan baik. Makna filosofisnya adalah tercapainya kehidupan yang sejahtera, mulia, dan penuh kebahagiaan.', 
+                'img/sidomukti.jpeg'
+                )">
+                <div class="card-image">
+                    <img src="img/caca sidomukti.png" alt="Batik sidomukti">
+                </div>
+                <div class="card-content">
+                    <h3>Sidomukti</h3>
+                    <p>Simbol kemuliaan dalam pola agung nan anggun</p>
+                    <span class="tag">Surakarta </span>
+                </div>
+            </div>
+
+            <div class="card" onclick="openModal(
+                'Batik Madura', 
+                'Madura', 
+                'menonjol dengan warna-warna berani seperti merah, hijau, dan kuning, berpadu dengan motif flora, fauna, dan bentuk geometris yang kuat. Coraknya memancarkan energi dan keberanian khas masyarakat Madura. Maknanya adalah ketegasan, kekuatan, dan semangat juang yang selalu menyala.', 
+                'img/madura.jpeg'
+                )">
+                <div class="card-image">
+                    <img src="img/caca madura.png" alt="Batik madura">
+                </div>
+                <div class="card-content">
+                    <h3>Madura</h3>
+                    <p>Kontras berani dengan energi dinamis</p>
+                    <span class="tag">Madura</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-grid">
+            <div class="about-text">
+                <h2>UNESCO World Nusantara</h2>
+                <p>Batik adalah seni kuno Indonesia yang pada tahun 2009 diakui UNESCO sebagai Mahakarya Warisan Lisan dan Takbenda Kemanusiaan.</p>
+                <p>Kata "batik" berasal dari bahasa Jawa, yaitu amba (menulis) dan titik (titik). Dibuat dengan teknik pewarnaan menggunakan perintang malam (wax-resist dyeing), setiap daerah di Indonesia mengembangkan pola khasnya masing-masing yang sarat makna filosofis mendalam.</p>
+                <p>Lebih dari sekadar kain, batik merepresentasikan identitas, warisan budaya, dan keunggulan seni Indonesia yang diwariskan dari generasi ke generasi.</p>
+            </div>
+            <div class="about-visual">
+                <img src="img/culture.jpeg" alt="unesco world heritage batik indonesia">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Batik Nusantara • Preserving Indonesian Culture</p>
+    </footer>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" class="modal-image" src="" alt="Batik Image">
+            <h2 id="modalTitle"></h2>
+            <p class="modal-region" id="modalRegion"></p>
+            <p class="modal-desc" id="modalDesc"></p>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
