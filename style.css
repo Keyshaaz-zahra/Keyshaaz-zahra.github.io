@@ -415,3 +415,74 @@
   object-fit: cover;   /* biar foto proporsional */
   border-radius: 12px; /* biar sama dengan card */
 }
+
+/* Contact Section */
+#contact {
+  padding: 60px 20px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 30px;
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.map {
+  width: 100%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-box {
+  background: #0b0d17;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.info-box h3 {
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.info-box p {
+  margin: 8px 0;
+  font-size: 1em;
+  color: #ddd;
+}
+
+.info-box a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+.info-box a:hover {
+  text-decoration: underline;
+}
+
+.info-box i {
+  margin-right: 8px;
+  color: #1abc9c;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
